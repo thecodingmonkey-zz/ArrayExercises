@@ -23,4 +23,8 @@ if it did, continue the assignment by following the comments.
 once you are done, commit and push this branch.  
 then, continue on to the next level  
 
+<<<<<<< HEAD
 `git checkout level_3` and so on.
+=======
+`git checkout level_4`
+>>>>>>> origin/level_2
