@@ -168,25 +168,26 @@ var magic_square = [
 
 // Create an array with three elements, each consisting of a single 
 // character: single quotes, double quotes, and a comma.
-
+var three_characters = ["'", '"', ','];
 
 // Create an array of 1000 elements.  
 // (Contents do not matter, it just needs to have 1000 elements.)
-
+var bigArray = new Array(1000);
 
 // Create an array of three elements.  
 // The first and second elements should not be equal, the second and 
 // third elements should not be equal, but the first and third elements 
 // should be equal.
-
+var equalArray = [1, 2, 1];
 
 // Create an array of at least five elements where each element is equal 
 // to the elements adjacent to it.
-
+var equalityArray = [1, 1, 1, 1, 1];
 
 // Create an array of at least five reserved Javascript keywords.
-
+var reservedArray = ['int', 'var', 'for', 'while', 'do'];
 
 // Create an array of an array of an array of an array of an array of an 
 // array containing a single element: the number 42.
+var meaningOfLife = [[[[[[42]]]]]];
 
