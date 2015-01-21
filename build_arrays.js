@@ -137,17 +137,28 @@ var sublimeShortcuts = [
 
 // Create an array of gem arrays, where each gem array contains gems that 
 // are of a similar color.
+var gems_by_color = [
+  ['emerald', 'peridot'],
+  ['opal', 'diamond'],
+  ['sapphire']
+];
 
 
 // Create an array of aisles at a supermarket.  Each aisle is an array of 
 // items you might find in an aisle together.  (e.g. flour and baking 
 // powder would be found in an aisle together so would Apples and Bananas.)
-
+var supermarket_items = [
+  ['apples', 'bananas', 'oranges'],
+  ['flour', 'baking powder', 'sugar'],
+  ['bread', 'bagels', 'tortillas']
+]
 
 // Create an array of three arrays, each array having numbers that add up 
 // to 15, but having no element listed more than once in any array.
 // e.g. each element can only be in one array, and at most once in each array
-
-
-
+var magic_square = [
+  [15],
+  [1, 14],
+  [4, 5, 6]
+];
 
